@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: modelserver-dec12-1-database-config
+data:
+  VECTORDB_HOST: "modelserver-dec12-1-database"
+  VECTORDB_PORT: ""
